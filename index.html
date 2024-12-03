@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vytvořit nový účet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vytvořit nový účet</h1>
+    <p>Připojte se k naší komunitě. Nastavte si svůj účet.</p>
+    <form>
+      <div class="form-group">
+        <label for="fullname">Celé jméno</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Zadejte své celé jméno" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Zadejte svůj e-mail" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Heslo</label>
+        <input type="password" id="password" name="password" placeholder="Zadejte heslo" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Potvrzení hesla</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Zadejte heslo znovu" required>
+      </div>
+      <button type="submit" class="btn">Registrovat</button>
+    </form>
+  </div>
+</body>
+</html>
